@@ -73,11 +73,12 @@ public class ChatClient implements Model
       }
       property.firePropertyChange("list", false, users);
     }
+    /*
     else if(gson.fromJson(line, Map.class).get("type").equals("list")){
       ListOfUsersPackage reply = gson.fromJson(line, ListOfUsersPackage.class);
       allUsers = reply.getUserPackageArrayList();
       property.firePropertyChange("arraylist", false, allUsers);
-    }
+    }*/
     else if (gson.fromJson(line, Map.class).get("type").equals("number"))
     {
       int reply = gson.fromJson(line, NumberPackage.class).getValue();

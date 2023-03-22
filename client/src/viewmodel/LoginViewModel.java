@@ -6,7 +6,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import model.Model;
 
-public class LoginViewModel implements PropertyChangeListener
+public class LoginViewModel
 {
   private Model model;
   private StringProperty userName;
@@ -21,7 +21,7 @@ public class LoginViewModel implements PropertyChangeListener
     this.userName = new SimpleStringProperty();
     this.error = new SimpleStringProperty();
     this.property = new PropertyChangeSupport(this);
-    model.addListenerToClient(this);
+    //model.addListenerToClient(this);
     connectedClients = new ArrayList<>();
   }
 

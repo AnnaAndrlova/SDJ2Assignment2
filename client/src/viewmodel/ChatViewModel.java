@@ -11,7 +11,7 @@ public class ChatViewModel
   private StringProperty receivedMessage;
   private StringProperty error;
   private ArrayList<User> listOfUsers;
-  String newValue = "";
+
 
   private Model model;
 
