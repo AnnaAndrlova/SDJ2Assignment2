@@ -3,25 +3,23 @@ package model.Singleton_Logs;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Log
 {
-  private static Map<String, Log> map= new HashMap<>();
+  private static Log instance;
+  private static Object lock=new Object();
   private ArrayList<LogLine> logLines;
-  private String filename;
+  private final static boolean systemOut=true;
 
-  private Log(String key){
+  private Log(){
     logLines=new ArrayList<>();
-    filename=key;
   }
 
   public void addLog(String text){
     LogLine log= new LogLine(text);
     logLines.add(log);
     addToFile(log);
-    System.out.println(log);
+    if(systemOut) System.out.println(log);
   }
 
   public ArrayList<LogLine> getAll()
@@ -39,6 +37,7 @@ public class Log
     BufferedWriter out = null;
     try
     {
+      String filename = "Log-" + log.getDateTime().getSortableDate() + ".txt";
       out = new BufferedWriter(new FileWriter(filename, true));
       out.write(log + "\n");
     }
@@ -63,17 +62,16 @@ public class Log
     return "Log{" + "logLines=" + logLines + '}';
   }
 
-  public static Log getInstance(String key)
+  public static Log getInstance()
   {
-    Log instance=map.get(key);
     if(instance==null){
-      synchronized (map){
-        instance=map.get(key);
+      synchronized (lock){
         if(instance==null){
-          instance=new Log(key);
+          instance=new Log();
         }
       }
     }
     return instance;
   }
 }
+//Log.getInstance().addLog(YourStringHereBigBoy);

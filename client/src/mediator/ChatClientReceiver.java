@@ -22,6 +22,7 @@ public class ChatClientReceiver implements Runnable
     {
       try{
           String line = in.readLine();
+          System.out.println(line);
           client.received(line);
       }
       catch (Exception e){

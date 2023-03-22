@@ -11,8 +11,8 @@ public class ViewHandler
   private Scene currentScene;
   private Stage primaryStage;
   private ViewModelFactory viewModelFactory;
-  private ChatWindowController chatWindowController;
-  private LoginWindowController loginWindowController;
+  private ChatViewController chatWindowController;
+  private LoginViewController loginWindowController;
 
   public ViewHandler(ViewModelFactory viewModelFactory)
   {
@@ -32,11 +32,11 @@ public class ViewHandler
     switch (id)
     {
       case "Login":
-        root = loadLoginView("LoginWindow.fxml");
+        root = loadLoginView("LoginView.fxml");
         break;
 
       case "Chat":
-        root = loadChatView("ChatWindow.fxml");
+        root = loadChatView("ChatView.fxml");
     }
     currentScene.setRoot(root);
     String title = "";

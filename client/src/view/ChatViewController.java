@@ -6,21 +6,20 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Region;
-import viewmodel.LoginViewModel;
 import viewmodel.ChatViewModel;
 
-public class ChatWindowController
+public class ChatViewController
 {
   @FXML private TextField message;
   @FXML private ListView chat;
-  @FXML private Label errorLabel;
+ // @FXML private Label errorLabel;
 
   private Region root;
 
   private ChatViewModel chatViewModel;
   private ViewHandler viewHandler;
 
-  public ChatWindowController()
+  public ChatViewController()
   {
   }
 
@@ -49,11 +48,17 @@ public class ChatWindowController
   }
 
   @FXML private void onEnter(ActionEvent actionEvent)
+      throws InterruptedException
   {
 
+
+  }
+  @FXML private void send() throws InterruptedException
+  {
+    chatViewModel.sendMessage();
   }
 
-  @FXML private void onSubmit()
+  @FXML private void onSubmit() throws InterruptedException
   {
 
   }

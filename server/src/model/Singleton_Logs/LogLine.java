@@ -6,8 +6,8 @@ public class LogLine
   private DateTime dateTime;
 
   public LogLine(String text){
-    this.text=text;
-    dateTime=new DateTime();
+    this.text = text;
+    dateTime = new DateTime();
   }
 
   public String getText()
@@ -22,6 +22,6 @@ public class LogLine
 
   @Override public String toString()
   {
-    return "LogLine{" + "text='" + text + '\'' + ", dateTime=" + dateTime + '}';
+    return user+"\t"+dateTime+"\t"+text ;
   }
 }

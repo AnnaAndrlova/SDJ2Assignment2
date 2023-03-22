@@ -12,7 +12,7 @@ public abstract class PackageCreator
       case "command":
         inputPackage = new CommandPackage(type, input);
       default:
-        return inputPackage;
+        return null;
     }
   }
 }
