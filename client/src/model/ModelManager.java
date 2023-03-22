@@ -28,13 +28,16 @@ public class ModelManager implements Model, PropertyChangeListener
   {
    chatClient.sendMessage(message);
   }
+
+
   @Override public void sendUserName()
   {
    chatClient.sendUserName();
   }
-  @Override public void getAllUsers()
+  @Override public Object getAllUsers()
   {
    chatClient.getAllUsers();
+   return null;
   }
 
   @Override public void getNumberOfConnectedUsers()
@@ -52,6 +55,7 @@ public class ModelManager implements Model, PropertyChangeListener
     return user;
   }
 
+
   @Override public void addListenerToClient(PropertyChangeListener listener)
   {
     chatClient.addListener(listener);
@@ -65,5 +69,10 @@ public class ModelManager implements Model, PropertyChangeListener
 
   public void setUser(User user){
     this.user = user;
+  }
+
+  @Override public void receive()
+  {
+    chatClient.addListener(this);
   }
 }

@@ -67,18 +67,27 @@ public class ChatClient implements Model
 
       ListOfUsersPackage reply = gson.fromJson(line, ListOfUsersPackage.class);
       allUsers = reply.getUserPackageArrayList();
-      property.firePropertyChange("list", false, allUsers);
+      String users = "Users: ";
+      for(int i = 0; i<allUsers.size(); i++){
+        users = users + "\n user "+ i + ": " +allUsers.get(i).getUserName();
+      }
+      property.firePropertyChange("list", false, users);
+    }
+    else if(gson.fromJson(line, Map.class).get("type").equals("list")){
+      ListOfUsersPackage reply = gson.fromJson(line, ListOfUsersPackage.class);
+      allUsers = reply.getUserPackageArrayList();
+      property.firePropertyChange("arraylist", false, allUsers);
     }
     else if (gson.fromJson(line, Map.class).get("type").equals("number"))
     {
       int reply = gson.fromJson(line, NumberPackage.class).getValue();
-      property.firePropertyChange("number", false, reply);
+      property.firePropertyChange("number", false, reply + "");
     }
     else
     {
       MessagePackage messagePackage = gson.fromJson(line, MessagePackage.class);
       receivedMessage.add(messagePackage);
-      property.firePropertyChange("newMessage", false, receivedMessage);
+      property.firePropertyChange("newMessage", false, messagePackage.getMessage());
     }
   }
 

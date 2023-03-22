@@ -10,6 +10,8 @@ public class ChatViewModel
 
   private StringProperty receivedMessage;
   private StringProperty error;
+  private ArrayList<User> listOfUsers;
+  String newValue = "";
 
   private Model model;
 
@@ -25,10 +27,12 @@ public class ChatViewModel
     return sentMessage.get();
   }
 
-  public String getReceivedMessage()
-  {
-    return receivedMessage.get();
+
+  public ObservableList<String> getMessages() {
+    return messages;
   }
+
+
 
   public StringProperty sentMessage()
   {

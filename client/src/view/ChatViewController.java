@@ -11,8 +11,9 @@ import viewmodel.ChatViewModel;
 public class ChatViewController
 {
   @FXML private TextField message;
-  @FXML private ListView chat;
+  @FXML private ListView<String> chat;
  // @FXML private Label errorLabel;
+
 
   private Region root;
 
@@ -56,6 +57,8 @@ public class ChatViewController
   @FXML private void send() throws InterruptedException
   {
     chatViewModel.sendMessage();
+    reset();
+
   }
 
   @FXML private void onSubmit() throws InterruptedException

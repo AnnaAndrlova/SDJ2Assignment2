@@ -14,7 +14,7 @@ public class LoginViewController
   private LoginViewModel viewModel;
   private ViewHandler viewHandler;
 
-  @FXML public void logIn()
+  @FXML public void logIn() throws InterruptedException
   {
     viewHandler.openView("Chat");
     viewModel.login();

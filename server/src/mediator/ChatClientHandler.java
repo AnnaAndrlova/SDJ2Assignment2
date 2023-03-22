@@ -65,8 +65,8 @@ public class ChatClientHandler implements Runnable, PropertyChangeListener
           }
           else if (commandPackage.getCommand().equals("list")){
             ListOfUsersPackage usersPackage = new ListOfUsersPackage("list", model.getAllUsers());
-            System.out.println(model.getAllUsers());
-            System.out.println(usersPackage);
+            //System.out.println(model.getAllUsers());
+            //System.out.println(usersPackage);
             out.println(gson.toJson(usersPackage));
           }
         }
