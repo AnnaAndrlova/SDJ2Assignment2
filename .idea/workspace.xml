@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95b1b38-3ba4-46b9-8292-b3cfde6939ae" name="Changes" comment="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works" />
+    <list default="true" id="c95b1b38-3ba4-46b9-8292-b3cfde6939ae" name="Changes" comment="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works">
+      <change beforePath="$PROJECT_DIR$/client/src/mediator/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/mediator/ChatClient.java" afterDir="false" />
+    </list>
     <list id="40a88ba2-5116-46e6-9758-de7fa41da569" name="Changes by Alex" comment="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.&#10;Works" />
     <list id="96170dc6-26a1-458f-92a8-f63a1328f3a8" name="Changes by artur" comment="Changes by artur" />
     <list id="11124096-3f00-476e-becc-711c1c829697" name="Changes by Cosmin" comment="Changes by Cosmin" />
@@ -210,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679562891279</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works">
+      <created>1679563204594</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679563204594</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

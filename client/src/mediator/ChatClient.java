@@ -21,10 +21,10 @@ import model.User;
 
 public class ChatClient implements ClientModel
 {
-  //TODO: Check if user is registered
+  //TODO: Check if user is registered / not be implemented
   //TODO: Store the chats (aka the logs) in a file
   //TODO: Remove the server GUI
-  //TODO:
+  //TODO: Add a name before the message
   private Model model;
 
   private Socket socket;
