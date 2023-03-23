@@ -45,6 +45,7 @@ public class ChatViewController
 
   public void reset()
   {
+    message.setText("");
   }
 
   public Region getRoot()
@@ -55,9 +56,10 @@ public class ChatViewController
   @FXML private void onEnter(ActionEvent actionEvent)
       throws InterruptedException
   {
-
-
+    chatViewModel.sendMessage();
+    reset();
   }
+
   @FXML private void send() throws InterruptedException
   {
     chatViewModel.sendMessage();
@@ -67,7 +69,7 @@ public class ChatViewController
 
   @FXML private void onSubmit() throws InterruptedException
   {
-
+    chatViewModel.sendMessage();
   }
 
 }

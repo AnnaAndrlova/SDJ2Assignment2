@@ -21,6 +21,10 @@ import model.User;
 
 public class ChatClient implements ClientModel
 {
+  //TODO: Check if user is registered
+  //TODO: Store the chats (aka the logs) in a file
+  //TODO: Remove the server GUI
+  //TODO:
   private Model model;
 
   private Socket socket;
@@ -89,6 +93,7 @@ public class ChatClient implements ClientModel
       receivedMessage.add(messagePackage);
       property.firePropertyChange("newMessage", false, messagePackage.getMessage());
     }
+
   }
 
   @Override public void sendMessage(String message)
@@ -107,7 +112,6 @@ public class ChatClient implements ClientModel
   {
     InputPackage inputPackage = PackageCreator.getPackage("command", "number");
     out.println(gson.toJson(inputPackage));
-
   }
 
   public void sendUserName()

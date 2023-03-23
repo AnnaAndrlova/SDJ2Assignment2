@@ -1,6 +1,8 @@
 package model;
 
 import mediator.ChatClient;
+import model.FactoryModel.PackageCreator;
+import model.FactoryModel.Packages.InputPackage;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
