@@ -1,7 +1,6 @@
 import javafx.application.Application;
 
-
-public class ChatMain
+public class ServerMain
 {
   public static void main(String args[])
   {
