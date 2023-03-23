@@ -26,8 +26,6 @@ public class ChatClient implements Model
   private BufferedReader in;
   private PrintWriter out;
   private Gson gson;
-
-  private boolean waiting;
   private PropertyChangeSupport property;
   private ArrayList<User> allUsers;
   private ArrayList<MessagePackage> receivedMessage;
