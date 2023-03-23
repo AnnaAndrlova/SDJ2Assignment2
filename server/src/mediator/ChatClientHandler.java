@@ -73,6 +73,7 @@ public class ChatClientHandler implements Runnable, PropertyChangeListener
         else if (inputPackage.getType().equals("login")){
           UserPackage userPackage = gson.fromJson(message, UserPackage.class);
           String address = socket.getRemoteSocketAddress().toString();
+
           User user = new User(userPackage.getUserName(), address);
           this.user = user;
           model.addLoggedUser(user);
