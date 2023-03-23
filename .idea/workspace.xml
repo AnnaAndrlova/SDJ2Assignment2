@@ -1,65 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c95b1b38-3ba4-46b9-8292-b3cfde6939ae" name="Changes" comment="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works">
-      <change beforePath="$PROJECT_DIR$/server/src/mediator/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/mediator/ChatClientHandler.java" afterDir="false" />
-    </list>
-    <list id="40a88ba2-5116-46e6-9758-de7fa41da569" name="Changes by Alex" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/model/FactoryModel/Packages/ListOfUsersPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/mediator/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/mediator/ChatClient.java" afterDir="false" />
-    </list>
-    <list id="96170dc6-26a1-458f-92a8-f63a1328f3a8" name="Changes by artur" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/mediator/ClientModel.java" afterDir="false" />
-    </list>
-    <list id="11124096-3f00-476e-becc-711c1c829697" name="Changes by Cosmin" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/ServerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/view/ChatViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/view/LoginViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/view/ViewHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/viewmodel/ChatViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/viewmodel/LoginViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/viewmodel/ViewModelFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ChatMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ChatMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/ChatViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/ChatViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/viewmodel/ChatViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/viewmodel/ChatViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/viewmodel/LoginViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/viewmodel/LoginViewModel.java" afterDir="false" />
-    </list>
-    <list id="a963d626-00e1-4c9d-a30f-1adc27c3d058" name="Changes by Honzík" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/model/FactoryModel/CommandPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/FactoryModel/CommandPackageCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/FactoryModel/InputPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/FactoryModel/MessagePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/FactoryModel/MessagePackageCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/FactoryModel/NumberPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/FactoryModel/PackageCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/mediator/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/mediator/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/model/FactoryModel/PackageCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/model/FactoryModel/PackageCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/model/ModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/model/ModelManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/viewmodel/ChatViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/viewmodel/ChatViewModel.java" afterDir="false" />
-    </list>
-    <list id="cd45bea6-0df9-48ff-8f65-06b038ad09a9" name="Changes by janme" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/model/ModelManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/UserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/util/PropertyChangeSubject.java" afterDir="false" />
-    </list>
-    <list id="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" name="Changes by markg" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/model/FactoryModel/ListOfUsersPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/mediator/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/mediator/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/model/FactoryModel/CommandPackage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/model/FactoryModel/InputPackage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/model/FactoryModel/MessagePackageCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/model/FactoryModel/MessagePackageCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/model/FactoryModel/PackageCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/model/FactoryModel/PackageCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/model/ModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/model/ModelManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/ChatView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/ChatView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/ChatViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/ChatViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/LoginView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/LoginView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/LoginViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/LoginViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/model/Singleton_Logs/LogLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/model/Singleton_Logs/LogLine.java" afterDir="false" />
-    </list>
+    <list default="true" id="c95b1b38-3ba4-46b9-8292-b3cfde6939ae" name="Changes" comment="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works" />
+    <list id="40a88ba2-5116-46e6-9758-de7fa41da569" name="Changes by Alex" comment="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.&#10;Works" />
+    <list id="96170dc6-26a1-458f-92a8-f63a1328f3a8" name="Changes by artur" comment="Changes by artur" />
+    <list id="11124096-3f00-476e-becc-711c1c829697" name="Changes by Cosmin" comment="Changes by Cosmin" />
+    <list id="a963d626-00e1-4c9d-a30f-1adc27c3d058" name="Changes by Honzík" comment="Changes by Honzík" />
+    <list id="cd45bea6-0df9-48ff-8f65-06b038ad09a9" name="Changes by janme" comment="Changes by janme" />
+    <list id="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" name="Changes by markg" comment="Changes by markg" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,63 +25,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/client/src/viewmodel/ChatViewModel.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="6" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="4" end1="4" start2="8" end2="10" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="5" end1="5" start2="11" end2="12" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="6" end1="7" start2="13" end2="18" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="10" end1="11" start2="21" end2="23" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="20" end1="21" start2="32" end2="33" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="22" end1="22" start2="34" end2="37" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="40" end1="45" start2="55" end2="55" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="46" end1="47" start2="56" end2="57" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="48" end1="49" start2="58" end2="70" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="50" end1="50" start2="71" end2="73" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="55" end1="55" start2="78" end2="103" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/client/src/view/ChatViewController.java">
-      <ranges>
-        <range start1="32" end1="33" start2="32" end2="36" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="36" end1="39" start2="39" end2="43" changelist="11124096-3f00-476e-becc-711c1c829697" />
-        <range start1="43" end1="43" start2="47" end2="48" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="53" end1="55" start2="58" end2="60" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="56" end1="56" start2="61" end2="62" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="65" end1="66" start2="71" end2="72" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/client/src/model/FactoryModel/PackageCreator.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="7" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="4" end1="5" start2="9" end2="10" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="10" end1="11" start2="15" end2="16" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="12" end1="13" start2="17" end2="20" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/client/src/mediator/ChatClient.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="20" end1="21" start2="21" end2="22" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="22" end1="22" start2="23" end2="27" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="28" end1="30" start2="33" end2="33" changelist="40a88ba2-5116-46e6-9758-de7fa41da569" />
-        <range start1="92" end1="92" start2="95" end2="96" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="94" end1="100" start2="98" end2="99" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="101" end1="102" start2="100" end2="102" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="114" end1="115" start2="114" end2="114" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/client/src/model/ModelManager.java">
-      <ranges>
-        <range start1="3" end1="3" start2="3" end2="5" changelist="4cb0eab8-024f-4ef8-a1bc-3dca03a269ca" />
-        <range start1="15" end1="15" start2="17" end2="19" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="16" end1="17" start2="20" end2="21" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="18" end1="19" start2="22" end2="24" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-        <range start1="21" end1="25" start2="26" end2="26" changelist="a963d626-00e1-4c9d-a30f-1adc27c3d058" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -145,19 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/START/IdeaProjects/SDJ2/Uppercase-SocketClient-MVVM",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/START/IdeaProjects/SDJ2/Uppercase-SocketClient-MVVM&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="model.Singleton_Logs" />
@@ -263,7 +154,63 @@
       <option name="project" value="LOCAL" />
       <updated>1679511783836</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works">
+      <created>1679562578911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562578911</updated>
+    </task>
+    <task id="LOCAL-00007" summary="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.&#10;Works">
+      <created>1679562736648</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562736648</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changes by artur">
+      <created>1679562749771</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562749771</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changes by Cosmin">
+      <created>1679562762794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562762794</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changes by Honzík">
+      <created>1679562809872</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562809872</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changes by janme">
+      <created>1679562818002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562818002</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changes by markg">
+      <created>1679562823681</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562823681</updated>
+    </task>
+    <task id="LOCAL-00013" summary="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works">
+      <created>1679562891279</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679562891279</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,6 +227,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main" />
     <MESSAGE value="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well." />
+    <MESSAGE value="Changes by Alex" />
+    <MESSAGE value="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.&#10;Works" />
+    <MESSAGE value="Changes by artur" />
+    <MESSAGE value="Changes by Cosmin" />
+    <MESSAGE value="Changes by Honzík" />
+    <MESSAGE value="Changes by janme" />
+    <MESSAGE value="Changes by markg" />
     <MESSAGE value="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works" />
     <option name="LAST_COMMIT_MESSAGE" value="The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. &#10;Works" />
   </component>
