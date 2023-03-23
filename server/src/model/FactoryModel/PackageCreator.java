@@ -10,11 +10,11 @@ public abstract class PackageCreator
       case "message":
         inputPackage = new MessagePackage(type, input);
       case "command":
-        return inputPackage = new CommandPackage(type, input); //command
-      case "login":
-        return inputPackage = new UserPackage(type, input); //username
+        inputPackage = new CommandPackage(type, input);
+      case "user":
+        inputPackage = new UserPackage(type, input);
       default:
-        return null;
+        return inputPackage;
     }
   }
 }

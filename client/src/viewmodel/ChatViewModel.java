@@ -11,7 +11,11 @@ import javafx.collections.ObservableList;
 import model.Model;
 import model.User;
 
-public class ChatViewModel
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.ArrayList;
+
+public class ChatViewModel implements PropertyChangeListener
 {
   private StringProperty sentMessage;
 
@@ -28,6 +32,9 @@ public class ChatViewModel
     this.sentMessage = new SimpleStringProperty();
     this.receivedMessage = new SimpleListProperty<>();
     this.model = model;
+    model.addListenerToClient(this);
+    messages = FXCollections.observableArrayList();
+    this.listOfUsers = new ArrayList<>();
   }
 
   public String getSentMessage()
@@ -47,9 +54,20 @@ public class ChatViewModel
     return sentMessage;
   }
 
-  public void sendMessage()
+  public void sendMessage() throws InterruptedException
   {
-    //
+
+    if (sentMessage.getValue().startsWith("/number"))
+    {
+      model.getNumberOfConnectedUsers();
+    }
+    else if (sentMessage.getValue().startsWith("/list"))
+    {
+      model.getAllUsers();
+    }
+    else {
+      model.sendMessage(sentMessage.getValue());
+    }
   }
 
 
@@ -57,5 +75,30 @@ public class ChatViewModel
   public StringProperty getError()
   {
     return error;
+  }
+
+  @Override public void propertyChange(PropertyChangeEvent evt)
+  {
+    String name = evt.getPropertyName();
+    String value = (String) evt.getNewValue();
+
+    if( "newMessage".equals(name)){
+      Platform.runLater(() -> {
+        messages.add(value);
+      });
+    }
+
+    else if( "number".equals(name)){
+      Platform.runLater(() -> {
+        messages.add(value);
+      });
+    }
+
+    else if( "list".equals(name))
+
+      Platform.runLater(() -> {
+        messages.add(value);
+      });
+
   }
 }

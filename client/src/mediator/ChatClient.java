@@ -1,5 +1,6 @@
 package mediator;
 
+import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,7 +19,7 @@ import model.FactoryModel.Packages.MessagePackage;
 import model.FactoryModel.Packages.NumberPackage;
 import model.User;
 
-public class ChatClient implements Model
+public class ChatClient implements ClientModel
 {
   private Model model;
 
@@ -90,14 +91,10 @@ public class ChatClient implements Model
     }
   }
 
-  @Override public String receiveMessage()
+  @Override public void sendMessage(String message)
   {
-    return null;
-  }
-
-  @Override public String sendMessage()
-  {
-    return null;
+    InputPackage inputPackage = PackageCreator.getPackage("message", message);
+    out.println(gson.toJson(inputPackage));
   }
 
   @Override public void getAllUsers()

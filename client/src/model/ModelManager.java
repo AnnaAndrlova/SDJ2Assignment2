@@ -13,16 +13,15 @@ public class ModelManager implements Model, PropertyChangeListener
   private PropertyChangeSupport property;
   public final String HOST = "localhost";
   public final int PORT = 6969;
+  private ChatClient chatClient;
+  private User user;
 
-  public ModelManager()
+  public ModelManager () throws IOException
   {
-    this.property = new PropertyChangeSupport(this);;
+    this.property = new PropertyChangeSupport(this);
+    this.chatClient = new ChatClient(this, HOST, PORT);
   }
 
-  @Override public String receiveMessage()
-  {
-    return null;
-  }
 
   @Override public void sendMessage(String message)
   {
